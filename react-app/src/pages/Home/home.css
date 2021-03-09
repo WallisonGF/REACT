@@ -1,0 +1,80 @@
+/* ==================== */
+/* INFORMAÇÕES PESSOAIS */
+/* ==================== */
+/* ========================== */
+/* INFORMAÇÕES PESSOAIS - {1} */
+/* ========================== */
+.info-inicio {
+    background-color: rgb(235, 235, 235);
+    border-top: 10px solid rgb(105, 88, 88);
+    border-left: 10px solid rgb(131, 123, 123);
+}
+
+.row-info {
+    z-index: 3;
+    position: relative;
+    margin: 0px !important;
+}
+
+.title-informacoes-pessoais {
+    background: url("../../assets/img/background-home.jpg");
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-align: center;
+    font-size: 50px;
+    font-family: Impact;
+    font-weight: bold;
+}
+
+.informacoes-pessoais {
+    background-color: #48b4fc;
+    height: 100%;
+    position: relative;
+    z-index: 4;
+    box-shadow: .1vw .1vw 50vw 2vw inset rgb(0, 0, 0) !important;
+    animation: filter-animation 10s ease-in-out infinite;
+}
+
+.card-item {
+    width: 18rem;
+    margin: 2%;
+    text-align: center;
+    padding: 1vw;
+}
+
+@keyframes filter-animation {
+    0% {
+        filter: hue-rotate(0deg);
+        filter: saturate(0);
+    } 50% {
+        filter: hue-rotate(10deg);
+        filter: saturate(1);
+    } 100% {
+        filter: hue-rotate(0deg);
+        filter: saturate(0);
+    }
+}
+
+/* ========================== */
+/* INFORMAÇÕES PESSOAIS - {2} */
+/* ========================== */
+.informacoes-extras {
+    height: inherit;
+    width: 100%;
+    font-weight: bold;
+    background-color: #ffffff;
+    opacity: .8;
+}
+
+.title-competencias {
+    background: url("../../assets/img/background-home.jpg");
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-align: center;
+    font-size: 50px;
+    font-family: Impact;
+}
+
+.media-icons {
+    margin: 5%;
+}
